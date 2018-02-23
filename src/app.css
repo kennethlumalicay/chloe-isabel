@@ -1,0 +1,31 @@
+.fetch {
+  text-align: center;
+  color: #777;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  padding: 2rem;
+  animation: fade-in 0.5s ease-in-out;
+}
+.app > button {
+  padding: 5px 1rem;
+  margin: 1rem auto;
+}
+.app > h3 {
+  margin: 1rem auto;
+}
+.ants-container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0.2;
+  }
+}
